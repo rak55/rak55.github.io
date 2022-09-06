@@ -355,6 +355,86 @@
       <h3 class="page-title white-text teal">Projects & Publications</h3>
       <div class="container">
         <div class="row">
+          
+          <!-- MAMI -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="mami" src="/assets/img/MAMI.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">Multimedia Misogyny Identification<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Transformer-based models for Meme Classification
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title brown-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Women are frequently targeted online with hate speech and misogyny using tweets, memes, and other forms of communication. Our paper describes the system for Task 5 of SemEval-2022: Multimedia Automatic Misogyny Identification (MAMI). </li>
+                  <li>We participated in both the sub-tasks, where we used transformer-based architecture to combine features of images and text. We explore models with multi-modal pre-training (VisualBERT) and text-based pre-training (MMBT) while drawing comparative results.</li>
+                  <li>The official evaluation ranked our system 3rd out of 83 teams on the binary classification task (Sub-task A) with an F1 score of 0.761, and 7th out of 48 teams on the multi-label classification task (Sub-task B) with an F1 score of 0.705.</li>
+
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit Blog website" href="https://aclanthology.org/2022.semeval-1.82/" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+
+                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/rak55/ASRtrans-semeval2022/tree/main/MAMI"
+                    target="_blank" data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          
+           <!-- PCL -->
+          <div class="col s12 m6 l4">
+            <div class="card medium">
+              <div class="card-image waves-effect waves-block waves-light">
+                <img alt="Screenshot of  web app" src="/assets/img/pcl.png" style="height: 100%; width: 100%" class="activator" />
+              </div>
+              <div class="card-content">
+                <span class="card-title activator teal-text hoverline">PCL Detection<i
+                    class="mdi-navigation-more-vert right"></i></span>
+                <p>
+                  Ensemble of Tuned Transformer-based Models for PCL Detection
+                </p>
+              </div>
+              <div class="card-reveal">
+                <!-- TODO: change this -- only close button -->
+                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
+                <span class="card-title brown-text"><small>Accomplishments</small><i
+                    class="mdi-navigation-close right"></i></span>
+                <ul>
+                  <li>Patronizing behavior is a subtle form of bullying and when directed towards vulnerable communities, it can arise inequalities. Our paper describes the system for Task 4 of SemEval-2022: Patronizing and Condescending Language Detection (PCL).</li>
+                  <li>We participated in both the sub-tasks and conducted extensive experiments to analyze the effects of data augmentation and loss functions used, to tackle the problem of class imbalance. We explore whether large transformer-based models can capture the intricacies associated with PCL detection. </li>
+                  <li>Our solution consists of an ensemble of the RoBERTa model which is further trained on external data and other language models such as XLNeT, Ernie-2.0, and BERT. We also present the results of several problem transformation techniques such as Classifier Chains, Label Powerset, and Binary relevance for multi-label classification.</li>
+
+                </ul>
+                <div class="card-action">
+                  <a aria-label="Visit Blog website" href="https://aclanthology.org/2022.semeval-1.82/" target="_blank" data-position="top"
+                    data-tooltip="View Online"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-external-link"></i></a>
+                  <a aria-label="Visit the GitHub repo for  project"
+                    href="https://github.com/rak55/ASRtrans-semeval2022/tree/main/pcl" target="_blank"
+                    data-position="top" data-tooltip="View Source"
+                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
+                      class="fa fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
 
           <div class="col s12 m6 l4">
             <div class="card medium">
@@ -428,42 +508,6 @@
             </div>
           </div>
 
-          <!-- 1. Django Project -->
-          <!-- <div class="col s12 m6 l6">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="django web app" src="/assets/img/project-library-logo.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Local Library Web-App<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  A web-app that creates an online catalog for a small local library, where users can browse available books and manage their accounts.
-                </p>
-              </div>
-              <div class="card-reveal">
-                <span class="card-title grey-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li><b>Tools:</b> HTML, CSS, Bootstrap, SQLite, Django, Heroku</li>
-                  <li>Users can view list and detail information for books and authors.</li>
-                  <li>Admin users can create and manage models.</li>
-                  <li>Librarians can renew reserved books.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit " href="https://django-local-lib.herokuapp.com" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/varadbhogayata/django-local-library"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div> -->
 
           <!-- DRDO-->
           <div class="col s12 m6 l4">
@@ -566,83 +610,8 @@
             </div>
           </div>
 
-          <!-- MAMI -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="mami" src="/assets/img/MAMI.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">Multimedia Misogyny Identification<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Transformer-based models for Meme Classification
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Women are frequently targeted online with hate speech and misogyny using tweets, memes, and other forms of communication. Our paper describes the system for Task 5 of SemEval-2022: Multimedia Automatic Misogyny Identification (MAMI). </li>
-                  <li>We participated in both the sub-tasks, where we used transformer-based architecture to combine features of images and text. We explore models with multi-modal pre-training (VisualBERT) and text-based pre-training (MMBT) while drawing comparative results.</li>
-                  <li>The official evaluation ranked our system 3rd out of 83 teams on the binary classification task (Sub-task A) with an F1 score of 0.761, and 7th out of 48 teams on the multi-label classification task (Sub-task B) with an F1 score of 0.705.</li>
 
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit Blog website" href="https://aclanthology.org/2022.semeval-1.82/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
 
-                  <a aria-label="Visit the GitHub repo for  project" href="https://github.com/rak55/ASRtrans-semeval2022/tree/main/MAMI"
-                    target="_blank" data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- PCL -->
-          <div class="col s12 m6 l4">
-            <div class="card medium">
-              <div class="card-image waves-effect waves-block waves-light">
-                <img alt="Screenshot of  web app" src="/assets/img/pcl.png" style="height: 100%; width: 100%" class="activator" />
-              </div>
-              <div class="card-content">
-                <span class="card-title activator teal-text hoverline">PCL Detection<i
-                    class="mdi-navigation-more-vert right"></i></span>
-                <p>
-                  Ensemble of Tuned Transformer-based Models for PCL Detection
-                </p>
-              </div>
-              <div class="card-reveal">
-                <!-- TODO: change this -- only close button -->
-                <!-- <span class="card-title brown-text">Accomplishments<i class="mdi-navigation-close right"></i></span> -->
-                <span class="card-title brown-text"><small>Accomplishments</small><i
-                    class="mdi-navigation-close right"></i></span>
-                <ul>
-                  <li>Patronizing behavior is a subtle form of bullying and when directed towards vulnerable communities, it can arise inequalities. Our paper describes the system for Task 4 of SemEval-2022: Patronizing and Condescending Language Detection (PCL).</li>
-                  <li>We participated in both the sub-tasks and conducted extensive experiments to analyze the effects of data augmentation and loss functions used, to tackle the problem of class imbalance. We explore whether large transformer-based models can capture the intricacies associated with PCL detection. </li>
-                  <li>Our solution consists of an ensemble of the RoBERTa model which is further trained on external data and other language models such as XLNeT, Ernie-2.0, and BERT. We also present the results of several problem transformation techniques such as Classifier Chains, Label Powerset, and Binary relevance for multi-label classification.</li>
-
-                </ul>
-                <div class="card-action">
-                  <a aria-label="Visit Blog website" href="https://aclanthology.org/2022.semeval-1.82/" target="_blank" data-position="top"
-                    data-tooltip="View Online"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-external-link"></i></a>
-                  <a aria-label="Visit the GitHub repo for  project"
-                    href="https://github.com/rak55/ASRtrans-semeval2022/tree/main/pcl" target="_blank"
-                    data-position="top" data-tooltip="View Source"
-                    class="btn-floating btn-large waves-effect waves-light blue-grey tooltipped"><i
-                      class="fa fa-github"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
 
           <!-- ************* -->
         </div>
